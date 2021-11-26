@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, rgb(21, 188, 21), rgb(232, 17, 225));
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    overflow: hidden;
+}
+
+.left{
+    flex:25%;
+    padding:15px 0;
+}
+
+.right{
+    flex:65%;
+    padding: 15px;
+}
+
+.left h2{
+    font:800 2.5rem "Raleway";
+    margin: 0;
+    letter-spacing: 0.2em;
+}
+
+#myMenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font:700 1.5rem "Raleway";
+   
+}
+
+#myMenu li a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.5);
+    letter-spacing: 0.09em;
+    display: block;
+   
+   
+}
+#mySearch{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 600px;
+}
+p{
+    max-width: 800px;
+}
+.active,#myMenu li a:hover{
+    background:linear-gradient(to right, rgb(111, 116, 111), rgb(34, 20, 33)); 
+}
+
